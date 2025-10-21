@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - Stage 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <div class="nav-brand">Frontend Developer</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <article class="profile-card" data-testid="test-profile-card">
+            <div class="card-content">
+                <header class="card-header">
+                    <figure class="avatar-figure">
+                        <img
+                        src="../PROFILE CARD WEBSITE - 01/picture/IMG_1169.JPG"
+                        alt="Profile picture of Emmanuel Okon"
+                        class="avatar"
+                        data-testid="test-user-avatar"
+                        id="avatar"
+                        />
+                        <div class="online-indicator" title="online"></div>
+                    </figure>
+
+                    <div class="header-info">
+                        <h2 class="user-name" data-testid="test-user-name" id="userName">Emmanuel Okon</h2>
+                        <p class="user-bio" data-testid="test-user-bio">
+                            Frontend Developer passionate about building accessible and performant web applications.
+                            I love solving problems and contributing to open-source projects.
+                        </p>
+                        <div class="time-container">
+                            <div class="user-date" id="userDate"></div>
+                            <div class="user-time" data-testid="test-user-time" id="userTime" title="Click to copy timestamp"></div>
+                        </div>
+                    </div>
+                </header>
+
+                <nav class="social-nav" aria-label="Social media links">
+                    <ul class="social-links" data-testid="test-user-social-links">
+                        <li>
+                            <a
+                            href="https://twitter.com/CodeWithNuel"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="social-link"
+                            data-testid="test-user-social-twitter"
+                            >
+                            X
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                            href="https://github.com/yungemmy892-maker"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="social-link"
+                            data-testid="test-user-social-github"
+                            >
+                            Github
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                            href="https://linkedin.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="social-link"
+                            data-testid="test-user-social-linkedin"
+                            >
+                            Linkedin
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="details-section">
+                    <section class="section hobbies-section">
+                        <h3 class="section-title">Hobbies</h3>
+                        <ul class="list" data-testid="test-user-hobbies" id="hobbiesList"> 
+                            <li class="list-item">Watchig movies and listening to music</li>
+                            <li class="list-item">Reading sci-fi novels</li>
+                            <li class="list-item">Contributing to projects</li>
+                            <li class="list-item">Cooking dishes</li>
+                        </ul>
+                    </section>
+
+                    <section class="section dislikes-section">
+                        <h3 class="section-title">Dislikes</h3>
+                        <ul class="list" data-testid="test-user-dislikes" id="dislikesList">
+                            <li class="list-item">Skipping breakfast</li>
+                            <li class="list-item">Traffic jams</li>
+                            <li class="list-item">Cluttered workspaces</li>
+                            <li class="list-item">Unnecessary meetings</li>
+                        </ul>
+
+                    </section>
+                </div>
+            </div>
+
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
