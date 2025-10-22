@@ -95,6 +95,7 @@ Home → About Me → Contact Us
 
 🌍 Live Demo
 
-Deployed Link: https://
+Deployed Link: https://profile-card-stage1.vercel.app/
 
 GitHub Repository: https://github.com/yungemmy892-maker/ProfileCard-stage1.git
+
